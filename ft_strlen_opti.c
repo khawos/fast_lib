@@ -6,7 +6,7 @@
 /*   By: amedenec <amedenec@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/12 04:56:20 by amedenec          #+#    #+#             */
-/*   Updated: 2025/03/12 04:59:40 by amedenec         ###   ########.fr       */
+/*   Updated: 2025/03/12 05:02:03 by amedenec         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,8 @@
 size_t	ft_strlen(const char *s)
 {
 	const char		*start;
-	const uintptr_t	*ptr;
 	uintptr_t		chunk;
+	const uintptr_t	*ptr;
 
 	start = s;
 	while ((uintptr_t)s % sizeof(uintptr_t))

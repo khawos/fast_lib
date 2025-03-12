@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   fast_lib.h                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amedenec <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: amedenec <amedenec@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/12 04:56:26 by amedenec          #+#    #+#             */
-/*   Updated: 2025/03/12 04:56:29 by amedenec         ###   ########.fr       */
+/*   Updated: 2025/03/12 05:02:25 by amedenec         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,7 @@
 # define FAST_LIB_H
 # include <stddef.h>
 # include <stdint.h>
+
+size_t	ft_strlen(const char *s);
 
 #endif
